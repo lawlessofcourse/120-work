@@ -9,4 +9,7 @@ I added a new line to my file in this text.
 
 I am addling lines to this document and making changes
 
-MUAHAHAHAH
+MUAHAHAHAH!!!
+
+
+I am now adding lines to demonstrate the use of GitHub Desktop
