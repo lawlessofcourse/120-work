@@ -1,6 +1,6 @@
 Jack Lawless, 51
 
-[Live Sketch Link](Your Live Link)
+[Live Sketch Link](https://lawlessofcourse.github.io/120-work/hw-7/)
 
 
 # HW 7 | Describe then Alter the Bouncing Ball
@@ -27,7 +27,7 @@ line 31: draw ellipse using the ball object variables
 
 line 34-37: Funtion mousePressed; returns any code within funciton and runs it if the mouse is clicked.
 
-To make the ball change direction we used the mousePressed function. When we click the mouse we are basically altering the ball's motion variable with math. For example if you wanted to make the ball go in the reverse direction it is traveling all you have to do is multiply the ball's motion variable by -1.  
+To make the ball change direction we used the mousePressed function. When we click the mouse we are basically altering the ball's motion variable with math. For example if you wanted to make the ball go in the reverse direction it is traveling all you have to do is multiply the ball's motion variable by -1.
 
 
 ## How did you alter the sketch?
