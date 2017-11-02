@@ -2,14 +2,21 @@ var movement = 0;
 var motion = 0;
 var circleWidth = 2;
 var circleHeight = 2;
+var col = {};
+col.r = 0;
+col.g = 0;
+col.b = 0;
 
 function setup(){
-  createCanvas(windowWidth, windowHeight);
+createCanvas(windowWidth, windowHeight);
 frameRate(15);
 
 }
 function draw(){
 background(210);
+col.r = random(50);
+col.g = random(200, 255);
+col.b = random(175, 200);
   push();
   //Set origin to middle
   translate(windowWidth/2, windowHeight/2);
@@ -29,7 +36,6 @@ background(210);
   strokeWeight(3);
   //Loop of expanding circle, starts at 0x0 expands to 500 new circle every 50
   for(var w = 0; w < 500; w+=50){
-
     //SANDBOX FOR EXPANDING CIRCLES SHADOW
     push();
       //COLOR AND MAKE TRANSPARENT
@@ -37,7 +43,7 @@ background(210);
       strokeWeight(3);
       ellipse(0, 0, circleWidth + w - 5, circleHeight + w - 5);
     pop();
-    stroke('rgb(4, 191, 90)');
+    stroke(col.r, col.g, col.b);
     // ELLIPSE FOR BLUE EXPANDING CIRCLES
     ellipse(0, 0, circleWidth + w, circleHeight + w);
     //SET ELLIPSES IN MOTION (move .5 every frame)

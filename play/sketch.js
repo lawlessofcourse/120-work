@@ -9,7 +9,7 @@ function setup(){
 function draw(){
   stroke(150);
   strokeWeight(1);
-  if(random(1)>0.5){
+if(random(1)>0.5){
   line(x, y, x + spacing, y + spacing);
 }else{
   line(x, y + spacing, x + spacing, y);
